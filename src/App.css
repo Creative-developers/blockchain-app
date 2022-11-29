@@ -1,0 +1,41 @@
+body{
+  min-height: 100vh;
+  position: relative;
+  background: #111f2c !important;
+  padding-bottom: 50px;
+}
+.search-area{display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;}
+  
+
+#seachForm .form-control{z-index: inherit;}  
+.search-area .main-title{margin-bottom:5px;color:#fff}
+.form-area{width:650px}
+.search-icon svg{
+  position: absolute;
+  right: 39px;
+  top: 5px;
+}
+
+p, label{color:#fff}
+
+/** Transaction notifications ***/
+.transactions-notifications{
+  position: absolute;
+  right: 259px;
+  top: 52px;
+  width: 550px;
+}
+.transactions-notifications h3{
+  color:#fff;
+  margin:0
+}
+.transactions-notifications p{ font-size: 14px;}
+.transactions-notifications .list-group{    overflow: scroll;
+  height: 350px;}
+  .transactions-notifications .list-group span{display: flex;}
+  .top-addresses {}
+  .top-addresses h3{color:#fff}

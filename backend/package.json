@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Node JS Backend for the  bitcoin addareses",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20",
+    "puppeteer": "^19.3.0"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon server.js",
+    "prod": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
